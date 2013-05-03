@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.math.BigDecimal;// This section of the api allows us to see numbers without typical exponetials //
-import java.text.NumberFormat;//allow Commas in numbers 
+import java.text.NumberFormat;//Format Number appearance
+
 public class ParkMice 
 {
     public static final double GROWTH_RATE = 0.20; /**the 20% a week the mice population takes to grow*/ 
