@@ -1,7 +1,6 @@
 import java.util.Scanner;
 import java.math.BigDecimal;// This section of the api allows us to see numbers without typical exponetials //
-import java.text.NumberFormat;//Format Number appearance
-
+import java.text.NumberFormat;//allow Commas in numbers 
 public class ParkMice 
 {
     public static final double GROWTH_RATE = 0.20; /**the 20% a week the mice population takes to grow*/ 
@@ -10,7 +9,8 @@ public class ParkMice
     public static final double DEATH_RATE = 0.05; /**this is a 5% weekly death of the mouse population*/
     public static void main (String [] args) 
     {
-        System.out.print("The total area of Central Park is: " + Math.round(TOTAL_PARK_AREA) );
+        NumberFormat nf = NumberFormat.getInstance();
+        System.out.print("The total area of Central Park is: " + nf.format(Math.round(TOTAL_PARK_AREA) ));
         System.out.println(" sq ft.");
         System.out.println("Please enter the estimated amount of mice inside of Central Park:"); 
         Scanner keyboard = new Scanner(System.in); 
@@ -20,7 +20,7 @@ public class ParkMice
  
         int WEEKS_COUNT = 0;
         double POPULATION = INITIAL_POPULATION;
-        NumberFormat nf = NumberFormat.getInstance();
+        
         double TOTAL_MOUSE_AREA = POPULATION * ONE_MOUSE_AREA;
         double NEW_MICE, NEW_MICE_VOLUME, DEAD_MICE, DEAD_MICE_VOLUME;
         while (TOTAL_MOUSE_AREA < TOTAL_PARK_AREA)
