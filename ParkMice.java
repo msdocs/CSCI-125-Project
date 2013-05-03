@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.math.BigDecimal;
+import java.math.BigDecimal;// This section of the api allows us to see numbers without typical exponetials //
 public class ParkMice 
 {
     public static final double GROWTH_RATE = 0.20; /**the 20% a week the mice population takes to grow*/ 
@@ -13,6 +13,9 @@ public class ParkMice
         System.out.println("Please enter the estimated amount of mice inside of Central Park:"); 
         Scanner keyboard = new Scanner(System.in); 
         int INITIAL_POPULATION = keyboard.nextInt();
+        
+/** <-------------------Everything above this text is the roots to the original program------------------------------>*/
+ 
         int WEEKS_COUNT = 0;
         double POPULATION = INITIAL_POPULATION;
         double TOTAL_MOUSE_AREA = POPULATION * ONE_MOUSE_AREA;
