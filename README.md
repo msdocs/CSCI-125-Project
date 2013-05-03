@@ -8,9 +8,10 @@ Project by Mahmoud Saleh, Anthony Aquino, and Luis Luchio
 
 https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-//Base Code// 
+Base Code
+================
 
-//Anthony Aquino//
+
 
 
 import java.util.Scanner
