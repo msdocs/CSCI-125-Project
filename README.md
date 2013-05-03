@@ -11,9 +11,6 @@ https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 ### Base Code
 ================
-
-
-
 ```js
 import java.util.Scanner
 public class ParkMice
