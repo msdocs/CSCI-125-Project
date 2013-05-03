@@ -29,7 +29,7 @@ public class ParkMice
         }
         System.out.println("If Central Park starts with a mouse population of " 
                 + INITIAL_POPULATION + " mice,");
-        System.out.println("With a mice growth rate of 20% weekly, and mice death rate of 5% weekly,");
+        System.out.println("With a mice growth rate of 20% weekly, and mice death rate of 5% weekly,"); 
         System.out.print("after " + WEEKS_COUNT + " weeks,");
         System.out.println("the final mice population will be " + BigDecimal.valueOf(Math.ceil(POPULATION));
          if (TOTAL_MOUSE_AREA > TOTAL_PARK_AREA)
