@@ -4,16 +4,17 @@ CSCI-125-Project
 Project by Mahmoud Saleh, Anthony Aquino, and Luis Luchio 
 
 
-//License// 
+License
+================
 
 https://creativecommons.org/licenses/by-nc-sa/3.0/
 
-Base Code
+### Base Code
 ================
 
 
 
-
+```js
 import java.util.Scanner
 public class ParkMice
 {
@@ -26,3 +27,4 @@ System.out.println("The total volume of Central Park is " + TOTAL_PARK_VOLUME + 
 System.out.println("Please enter the estimated amount of mice inside of Central Park");
 Scanner keyboard = new Scanner(System.in);
 int startPopulation = keyboard.nextInt();
+```
