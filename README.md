@@ -1,7 +1,7 @@
 CSCI-125-Project
 ================
 
-Project by Mahmoud Saleh, Anthony Aquino, and Luis Luchio 
+Project by Mahmoud Saleh, Anthony Aquino, and Luis Shinin
 
 
 License
