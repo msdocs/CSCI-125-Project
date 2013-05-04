@@ -25,3 +25,6 @@ System.out.println("Please enter the estimated amount of mice inside of Central 
 Scanner keyboard = new Scanner(System.in);
 int startPopulation = keyboard.nextInt();
 ```
+### Flow Chart
+================
+![Alt text](217068_529904493715088_294824821_n.jpg "Flow Chart")
