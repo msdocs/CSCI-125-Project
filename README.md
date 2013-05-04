@@ -27,4 +27,4 @@ int startPopulation = keyboard.nextInt();
 ```
 ### Flow Chart
 ================
-![Alt text](217068_529904493715088_294824821_n.jpg "Flow Chart")![Alt text](UML.png "Flow Chart")
+![Alt text](217068_529904493715088_294824821_n.jpg "Flow Chart")![Alt text](UML.PNG "Flow Chart")
