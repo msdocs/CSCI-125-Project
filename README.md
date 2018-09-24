@@ -1,19 +1,18 @@
 CSCI-125-Project
 
-========
+---
 
 Project by Mahmoud Saleh, Anthony Aquino, and Luis Shinin
 
 
 ### License
 
-========
-
+---
 https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 ### Base Code
 
-========
+---
 
 ```js
 import java.util.Scanner
@@ -31,11 +30,11 @@ int startPopulation = keyboard.nextInt();
 ```
 ### Flow Chart
 
-========
+---
 
 ![Alt text](217068_529904493715088_294824821_n.jpg "Flow Chart")
 
 ### UML
-================
+---
 
 ![Alt text](UML.PNG "UML")
